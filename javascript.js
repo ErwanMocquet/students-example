@@ -43,3 +43,10 @@ function showMembers(mlist) {
     output.insertAdjacentHTML("beforeend", template);
   } // end of iteration
 }
+
+if('serviceWorker' in navigator) {
+  console.log('ServiceWorker is available')
+  navigator.serviceWorker.register("/students-example/serviceworker.js")
+}   else{
+  console.log('ServiceWorker is not available')
+}
