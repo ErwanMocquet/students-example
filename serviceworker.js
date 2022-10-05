@@ -5,7 +5,7 @@ const cacheName = 'cache-students';
 self.addEventListener('install', function(event) {
  event.waitUntil(
     caches.open(cacheName).then(function(cache) {
-        return cache.addAll(['/students-example/', '/students-example/members.json','/students-example/javascript.js','/students-example/mystyle.css', '/students-example/index.html', '/students-example/morten.png', '/students-example/nina.png', '/students-example/olivia.png']);
+        return cache.addAll(['/students-example/', '/students-example/members.json','/students-example/javascript.js','/students-example/mystyle.css', '/students-example/index.html', '/students-example/morten.png', '/students-example/nina.png', '/students-example/olivia.png', '/students-example/erwan.png']);
         })
     );
 });

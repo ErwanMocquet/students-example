@@ -17,6 +17,12 @@
         "lastname" : "Johnson",
         "age" : 23,
         "image": "nina.png"
+    },
+    {
+        "firstname" : "Erwan",
+        "lastname" : "Mocquet",
+        "age" : "23",
+        "image" : "erwan.png"
     }
 ]
 }
